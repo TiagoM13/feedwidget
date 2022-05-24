@@ -1,7 +1,9 @@
 import { ArrowLeft, Camera } from "phosphor-react";
 import { FormEvent, useState } from "react";
 import { FeedbackType, feedbackTypes } from "..";
+
 import { api } from "../../../services/api";
+
 import { CloseButton } from "../../CloseButton";
 import { Loading } from "../../Loading";
 import { ScreenshotButton } from "../ScreenshotButton";
@@ -27,6 +29,7 @@ export function FeedbackContentStep({
     event.preventDefault()
 
     setIsSendingFeedbacks(true)
+
 
     await api.post('/feedbacks', {
       type: feedbackType,
