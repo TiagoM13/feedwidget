@@ -17,6 +17,6 @@
 
 ## :page_with_curl: Como rodar a aplicação
 
-  Clone este repositório
-  instale as dependêmcias com o comando O "yarn".
-  Rode a aplicação com o comandno "yarn dev"
+  <p>Clone este repositório</p>
+  <p>instale as dependêmcias com o comando O "yarn".</p>
+  <p>Rode a aplicação com o comandno "yarn dev"</p>
