@@ -1,6 +1,6 @@
 # :pencil: FeedWidget
 
-  Este projeto foi criando para fazer feedbacks de sites ou aplicativos, a aplicação conta com uma interface bem simples e fácil de se usar, um formulário com alguns campos para serem preenchidos, onde o usupario escolhe o tipo de feedback, podendo também mandar um screenshot (imagem da tela), assim detalhando ainda mais o feedback.
+  Este projeto foi criando para fazer feedbacks de sites ou aplicativos, a aplicação conta com uma interface bem simples e fácil de se usar, um formulário com alguns campos para serem preenchidos, onde o usuário escolhe o tipo de feedback, podendo também mandar um screenshot (imagem da tela), assim detalhando ainda mais o feedback.
 
 ## :wrench: Ferramentas
 
