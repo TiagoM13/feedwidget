@@ -10,7 +10,7 @@
   <li>Typescript</li>
   <li>Axios</li>
   <li>Tailwind</li>
-  <li>Oostcss</li>
+  <li>Postcss</li>
   <li>Phosphor</li>
 </ul>
 
