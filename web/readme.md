@@ -19,4 +19,4 @@
 
   Clone este repositório
   instale as dependêmcias com o comando O "yarn".
-  Rode a aplicação com o comandno " yarn
+  Rode a aplicação com o comandno "yarn dev"
