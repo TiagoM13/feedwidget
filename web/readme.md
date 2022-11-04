@@ -53,7 +53,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as sequintes
   - Typescript
   - Axios
   - Tailwind
-  - Oostcss
+  - Postcss
   - Phosphor
 
 ### :boy: Autor 
