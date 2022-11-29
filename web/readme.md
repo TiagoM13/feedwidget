@@ -32,7 +32,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as sequintes
    # Acesse a pasta do projeto no terminal
    $ cd 
 
-   # Vá para a pasta Server
+   # Vá para a pasta Web
    $ cd web
 
    # Instale as dependências
