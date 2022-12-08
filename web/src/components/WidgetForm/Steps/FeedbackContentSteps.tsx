@@ -1,6 +1,7 @@
 import { ArrowLeft } from "phosphor-react";
 import { FormEvent, useState } from "react";
-import { FeedbackType, feedbackTypes } from "..";
+import { feedbackTypes } from "../../../constants/feedbackTypes";
+import { IFeedbackContentStep } from "../../../interfaces/feedbackContentStep";
 
 import { api } from "../../../services/api";
 
@@ -8,17 +9,11 @@ import { CloseButton } from "../../CloseButton";
 import { Loading } from "../../Loading";
 import { ScreenshotButton } from "../ScreenshotButton";
 
-interface FeedbackContentStepProps {
-  feedbackType: FeedbackType;
-  onFeedbackRestartRequested: () => void;
-  onFeedbackSent: () => void;
-}
-
 export function FeedbackContentStep({
   feedbackType,
   onFeedbackRestartRequested,
   onFeedbackSent
-}: FeedbackContentStepProps) {
+}: IFeedbackContentStep) {
   const [screenshot, setScreenshot] = useState<string | null>(null)
   const [comment, setComment] = useState('');
   const [isSendingFeedbacks, setIsSendingFeedbacks] = useState(false)
